@@ -66,8 +66,18 @@ body {
             }
     }
     section#day-structure {
+        text-align: center;
         h2 {
-            font-size: 4.2em
+            font-size: 4.2em;
+            font-family:"Roboto Condensed"
         }
-        
+        li {
+            font-family:"Roboto Condensed";
+            font-size: 1.5em;
+            list-style-type: none;
+        }
+        font-size: 1.7em;
+        img.service-box {
+            width: 125px;
+        }
     }
