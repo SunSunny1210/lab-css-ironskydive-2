@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
 html,
 body {
-  margin: 0;
-  padding: 0;  
+  * {
+    margin: 0;
+    padding: 0;
+  }  
   font-family:"Roboto";
     h1 {
     font-family:"Roboto Condensed";
@@ -39,8 +41,7 @@ body {
         h2 {
             color:#FFFFFF;
             text-shadow: #020819 8px -20px 9px;
-            
-
+            line-height: 4em;
         }
         aside.quote {
             font-size: 2.5em;
@@ -69,7 +70,8 @@ body {
         text-align: center;
         h2 {
             font-size: 4.2em;
-            font-family:"Roboto Condensed"
+            font-family:"Roboto Condensed";
+            text-transform: initial;
         }
         li {
             font-family:"Roboto Condensed";
@@ -80,4 +82,28 @@ body {
         img.service-box {
             width: 125px;
         }
+    }
+    section#team {
+        background-color: #192129;
+        color: #FFFFFF;
+        h2 {
+            text-transform: capitalize;
+        }
+        p {
+            font-size: 1.9em;
+            text-align: center;
+        }
+        figcaption {
+            font-size: 1.5em;
+            font-weight: 700;
+
+        }
+        hr {
+            margin: 20px auto;
+        }
+        img.ihimg {
+            width: 250px;
+            height: 180px;
+        }
+
     }
