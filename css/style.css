@@ -105,5 +105,34 @@ body {
             width: 250px;
             height: 180px;
         }
-
+    }
+    section#schedule {
+        h2 {
+            text-transform: initial;
+            font-family:"Roboto Condensed";
+        }
+        text-align: center;
+        table {
+            th, td {
+                border-bottom: 1px solid;
+            }
+        }
+    }
+    footer {
+        h5 {
+            font-size: 1.2em;
+            font-family:"Roboto Condensed";
+        }
+        background-color: #192129;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 1.9em;
+        adress {
+        font-style: normal;
+        font-size: 0.8em;
+        }
+        a {
+            color: #43A3E6;
+            text-decoration: none;
+        }
     }
